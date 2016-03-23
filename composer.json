@@ -1,4 +1,15 @@
 {
+  "name": "nsk/demo",
+  "description": "Skeleton Project",
+  "license": "BSD-3-Clause",
+  "type": "library",
+  "keywords": ["demo"],
+  "authors": [
+    {
+      "name": "Nsk",
+      "email": "madalin.ignisca@gmail.com"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Nsk\\Demo\\" : "src/",
