@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * @coversDefaultClass \Nsk\Demo\Hello
+ */
 class HelloTest extends \PHPUnit_Framework_TestCase
 {
   protected $hello;
@@ -9,6 +12,9 @@ class HelloTest extends \PHPUnit_Framework_TestCase
     $this->hello = new \Nsk\Demo\Hello();
   }
 
+  /**
+   * @covers ::world
+   */
   public function testWorld()
   {
     $this->assertSame('world', $this->hello->world());
